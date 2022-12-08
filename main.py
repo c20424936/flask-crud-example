@@ -10,10 +10,10 @@ CORS(app)
 # My SQL Instance configurations
 # Change these details to match your instance configurations
 # Needs this to run
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'HelloWorld'
+app.config['MYSQL_USER'] = 'ben'
+app.config['MYSQL_PASSWORD'] = 'GuiHi123'
 app.config['MYSQL_DB'] = 'student'
-app.config['MYSQL_HOST'] = '35.197.236.234'
+app.config['MYSQL_HOST'] = '0.0.0.0/0'
 mysql.init_app(app)
 
 
