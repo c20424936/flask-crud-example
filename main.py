@@ -61,7 +61,7 @@ def update(cursor,id,email):
         mysql.connection.commit()
         return "<h1>Success updating user in database</h1>"
     except:
-        return "<h1>Failed to update user in database.,/h1>"
+        return "<h1>Failed to update user in database.,</h1>"
 
 
 def delete(cursor,name):
